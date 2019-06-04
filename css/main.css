@@ -23,3 +23,44 @@
 
   color: white;
 }
+
+/*These are the css3 button styles*/
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 20px 0 0 20px;
+}
+
+.button{
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+
+  /*add a box shadow*/
+  box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+
+  transition: all 0.5s;
+}
+
+.blue{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6db3f2+0,54a3ee+50,3690f0+51,1e69de+100;Blue+Gloss+%233 */
+  background: #6db3f2; /* Old browsers */
+  background: -webkit-linear-gradient(#6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%);
+  background: -o-linear-gradient(#6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%);
+  background: linear-gradient(#6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%);
+
+   /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-9 */
+}
+
+.button:active{
+  position: relative;
+  top: 5px;
+
+  opacity: 0.5;
+}
